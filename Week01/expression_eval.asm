@@ -2,7 +2,7 @@
         .globl main
 
 main:
-    li $v0, 4
+          li $v0, 4
 	  la $a0, msg1
 	  syscall
   
@@ -18,12 +18,12 @@ main:
 	  syscall
   
 	  li $v0, 1
-    move $a0, $t0
+          move $a0, $t0
 	  syscall
         
-    li $v0, 4
-    la $a0, endl
-    syscall
+          li $v0, 4
+          la $a0, endl
+          syscall
         
         .data
 msg1:   .asciiz "Enter the value of N : "
