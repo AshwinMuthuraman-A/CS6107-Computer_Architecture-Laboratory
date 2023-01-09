@@ -1,0 +1,10 @@
+CS6107 - Computer Architecture - Laboratory
+Week 01 
+
+Questions:
+
+1. Write an assembly code in MIPS to print the string "Hello World".
+
+2. Write a simple program in MIPS to get two numbers from the user, add and display the result.
+
+3. Get input for the value of N, and evaluate the expression i = N*N + 3*N. Display the value of i, after evaluation.
