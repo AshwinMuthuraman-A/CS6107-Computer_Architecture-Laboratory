@@ -3,13 +3,15 @@ Week 02
 
 Questions:
 
-1.	Write an assembly language version of following C code segment:
-int A[100], B[100];
-for(i=1; i<100; i++) {
-	A[i] = A[i-1] + B[i];
-}
-At the beginning of this code segment, the only values in registers are the base addresses of array A and array B in registers $a0 and $a1 respectively.
-2.	Convert the following C statement to equivalent MIPS assembly language. Assume that the variables f, g, h and i are assigned to registers $s0, $s1, $s2 and $s3. Assume that the base addresses of the array A and B are in registers $s6 and $s7 respectively
-a)	f = g + B[4]
-b)	f = g – A[B[4]]
-3.	Write a MIPS program to print the factorial of a given number.
+1. Write an assembly language version of following C code segment:
+	int A[100], B[100];
+	for(i=1; i<100; i++) {
+		A[i] = A[i-1] + B[i];
+	}
+   At the beginning of this code segment, the only values in registers are the base addresses of array A and array B in registers $a0 and $a1 respectively.
+   
+2. Convert the following C statement to equivalent MIPS assembly language. Assume that the variables f, g, h and i are assigned to registers $s0, $s1, $s2 and $s3. Assume that the base addresses of the array A and B are in registers $s6 and $s7 respectively
+	a) f = g + B[4]
+	b) f = g – A[B[4]]
+
+3. Write a MIPS program to print the factorial of a given number.
