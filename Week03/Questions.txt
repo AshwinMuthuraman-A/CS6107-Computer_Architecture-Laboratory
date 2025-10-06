@@ -1,0 +1,16 @@
+CS6107 - Computer Architecture - Laboratory
+Week 03
+
+Exercise Questions: 
+
+1. Write a MIPS program to print the Fibonacci series. (Get a number ‘ n’ from the user and print the Fibonacci sequence from 1, 1, 2, 3, … till n terms). 
+
+2. Write a MIPS program to display the reverse of a number. 
+
+3. Write a MIPS program to get array elements from the user and implement linear search on it. 
+
+Spot Questions: 
+
+1. Write a MIPS program to get the values of x and y from the user. Then calculate the value of 3*x – 4*y and display the result. Check what happens when the values of x and y are at their maximums.  
+
+2. Write a MIPS program to get the values of x, y and z from the user. Then calculate the value of (x*y)/z and display the result. Check what happens when the values of x, y and z are at their maximums. 
