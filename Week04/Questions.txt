@@ -1,0 +1,10 @@
+CS6107 - Computer Architecture - Laboratory
+Week 04
+
+Exercise Questions: 
+
+1. Write a MIPS program to get 3 values, A and B from the user and evaluate A+2*B-5. Display the result. 
+
+2. Write a MIPS program to get a number from the user and display the sum of its digits. 
+
+3. Write a MIPS program to get a number 'n' from the user and display the sum of first n natural numbers. (Input: 45, Output: 1035)
