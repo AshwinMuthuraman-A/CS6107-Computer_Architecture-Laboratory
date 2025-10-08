@@ -1,0 +1,38 @@
+CS6107 - Computer Architecture - Laboratory
+Week 03
+
+Exercise Questions: 
+
+1. Write a MIPS program to find the maximum element in an array. 
+
+2. Write a MIPS program to display the count of occurrences of a particular element in an array. 
+
+3. Write a MIPS program to print the pyramid pattern for n lines.  
+    ( Input: n = 4 
+      Output: 
+        * 
+       *** 
+      ***** 
+     *******
+    ) 
+
+4. Write a MIPS program to get a number from the user and display the number of digits of it. 
+
+Spot Questions: 
+
+1. Write a MIPS program to find the maximum and minimum element in an array. 
+
+2. Write a MIPS program to declare an array. If the array elements are in ascending order, set the value of register $s2 to 1. If the array elements are not in ascending order, set the value of register $s2 to 0.  
+
+3. Write a MIPS program to find the average of height and weight for the given list of <height, weight> pair.  
+(Input: 
+.word 60, 90 
+.word 65, 105 
+.word 72, 255 
+.word 68, 270 
+.word 60, 115 
+Output: 
+Avg Height = 65 
+Avg Weight = 167) 
+
+4. Write a MIPS program to find the median of 3 given integers. 
