@@ -1,0 +1,47 @@
+        .data
+msg1:    .asciiz "\n ENTER A NUMBER: "
+result: .asciiz "\n THE FACTORIAL IS: "
+
+        .text
+        .globl main
+        
+ main:
+        li $v0, 4
+        la $a0, msg1
+        syscall
+        
+        li $v0, 5
+        syscall
+        move $a0, $v0
+
+        jal factorial
+        move $t0, $v0
+
+        li $v0, 4
+        la $a0, result
+        syscall
+        
+        li $v0, 1
+        move $a0, $t0
+        syscall
+
+        li $v0, 10
+        syscall
+
+factorial:
+        addi $sp, $sp, -8
+        sw $s0, 4($sp)
+        sw $ra, 0($sp)
+        bne $a0, $zero, else
+        addi $v0, $zero, 1
+        j fact_return
+        else:
+            move $s0, $a0addi $a0, $a0, -1
+            jal factorial
+            multu $s0, $v0
+            mflo $v0
+        fact_return:
+            lw $s0, 4($sp)
+            lw $ra, 0($sp)
+            addi $sp, $sp, 8
+            jr $ra
