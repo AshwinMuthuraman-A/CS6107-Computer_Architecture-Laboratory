@@ -1,0 +1,12 @@
+CS6107 - Computer Architecture - Laboratory
+Week 08
+
+Exercise Questions: 
+
+1. Write a MIPS program to find the factorial of a given number using recursion. 
+
+2. Write a MIPS program to calculate the sum of digits of a given number using recursion. 
+
+Spot Questions: 
+
+1. Write a MIPS program to sort the array of numbers using recursion.
