@@ -1,0 +1,10 @@
+CS6107 - Computer Architecture - Laboratory
+Week 07
+
+Exercise Questions: 
+
+1. Write a MIPS program to get two numbers from user. Find their GCD using functions and display it. 
+
+2. Write a MIPS program to get the base and exponent and calculate the value of base^exponent using functions. Display the result. (Input: base = 2, exponent = 4, Output: Value = 16) 
+
+3. Write a MIPS program to count and display the number of positive and negative elements in an array. 

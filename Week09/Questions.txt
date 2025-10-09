@@ -1,0 +1,8 @@
+CS6107 - Computer Architecture - Laboratory
+Week 09
+
+Exercise Questions: 
+
+1. Write a program in MIPS assembly language to implement logical operations. 
+
+2. Write a MIPS program to get an array from the user and a value. Add the value to all the elements in the array using pointers and display the array.

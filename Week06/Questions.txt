@@ -1,0 +1,16 @@
+CS6107 - Computer Architecture - Laboratory
+Week 06
+
+Exercise Questions: 
+
+1. Write a MIPS program to get three numbers from user, add them and display. Addition to be done using functions.  
+
+2. Write a MIPS program to get a number 'n' and display the nth Fibonacci term using recursive functions.  
+
+3. Write a MIPS program to count and display the number of vowels in a string using functions. 
+
+Spot Questions: 
+
+1. Write a MIPS program to display the count of vowels in a string. Remove all vowels from given string and display the new string. 
+
+2. Write a MIPS program to remove all spaces from given string and display the new string.

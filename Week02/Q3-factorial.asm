@@ -7,7 +7,7 @@ answer: .asciiz "\n THE FACTORIAL IS: "
         
  main:
         li $v0, 4
-        la $a0, msg1
+        la $a0, msg
         syscall
         
         li $v0, 5

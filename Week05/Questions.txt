@@ -1,5 +1,5 @@
 CS6107 - Computer Architecture - Laboratory
-Week 03
+Week 05
 
 Exercise Questions: 
 
