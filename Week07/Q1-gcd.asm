@@ -7,7 +7,7 @@ ans:    .asciiz "\n GCD of 2 NUMBERS IS: "
         .globl main
 
 main:
-        li $vo, 4
+        li $v0, 4
         move $a0, msg1
         syscall
 

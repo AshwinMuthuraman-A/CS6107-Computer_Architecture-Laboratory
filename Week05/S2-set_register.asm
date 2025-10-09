@@ -48,4 +48,3 @@ main:
             ls $a0, msg3
             syscall
         end: nop
-        

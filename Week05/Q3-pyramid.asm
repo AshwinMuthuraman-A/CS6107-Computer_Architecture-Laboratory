@@ -46,5 +46,3 @@ main:
             addi $t0, $t0, 1
             bne $t0, $so, loop
         halt: nop
-
-        
